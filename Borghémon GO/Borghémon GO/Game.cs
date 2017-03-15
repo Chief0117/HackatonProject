@@ -23,7 +23,7 @@ using Aiv.Fast2D;
         static Game()
         {
             Window = new Window(1500, 900, "MemesFromOuterSpace");
-            Window.SetVSync(false);
+        Window.SetDefaultOrthographicSize(10);
 
         }
 
