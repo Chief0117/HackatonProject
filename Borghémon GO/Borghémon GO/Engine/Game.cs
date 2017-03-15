@@ -22,8 +22,8 @@ using Aiv.Fast2D;
 
         static Game()
         {
-            Window = new Window(1024, 576, "MemesFromOuterSpace");
-            Window.SetVSync(false);
+            Window = new Window(1500, 900, "MemesFromOuterSpace");
+        Window.SetDefaultOrthographicSize(10);
 
         }
 
