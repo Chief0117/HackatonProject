@@ -51,17 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game.cs" />
+    <Compile Include="Engine\Game.cs" />
     <Compile Include="GameObject.cs" />
-    <Compile Include="GfxMgr.cs" />
-    <Compile Include="IDrawable.cs" />
-    <Compile Include="IUpdatable.cs" />
-    <Compile Include="PhysicsMgr.cs" />
-    <Compile Include="PlayScene.cs" />
+    <Compile Include="Engine\GfxMgr.cs" />
+    <Compile Include="Engine\IDrawable.cs" />
+    <Compile Include="Engine\IUpdatable.cs" />
+    <Compile Include="Engine\PhysicsMgr.cs" />
+    <Compile Include="Engine\PlayScene.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rect.cs" />
-    <Compile Include="RigidBody.cs" />
+    <Compile Include="Engine\Rect.cs" />
+    <Compile Include="Engine\RigidBody.cs" />
     <Compile Include="Scene.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -13,9 +13,11 @@ using Aiv.Fast2D;
         {
             textures = new Dictionary<String, Texture>();
 
-            //textures.Add("cannon", new Texture("Assets/cannon_straight.png"));
-            //textures.Add("cannonBase", new Texture("Assets/cannon_base.png"));
-            //textures.Add("ball", new Texture("Assets/cannon_ball.png"));
+        //textures.Add("cannon", new Texture("Assets/cannon_straight.png"));
+        //textures.Add("cannonBase", new Texture("Assets/cannon_base.png"));
+        //textures.Add("ball", new Texture("Assets/cannon_ball.png"));
+
+        textures.Add("player", new Texture("Assets/player.png"));
 
         }
 
