@@ -10,6 +10,8 @@ namespace Borghémon_GO
     {
         static void Main(string[] args)
         {
+            Game.Init();
+            Game.Play();
         }
     }
 }
